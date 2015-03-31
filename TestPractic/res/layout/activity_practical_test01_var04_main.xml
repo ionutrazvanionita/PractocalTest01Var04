@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ro.pub.cs.systems.pdsd.praticaltest01var04.PracticalTest01Var04MainActivity" >
+
+     <EditText
+        android:id="@+id/edit_text_notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/none" />
+
+     <Button
+         android:id="@+id/Button1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignRight="@+id/edit_text_notes"
+         android:layout_below="@+id/edit_text_notes"
+         android:layout_marginTop="39dp"
+         android:text="@string/DoM" />
+
+     <Button
+         android:id="@+id/Button3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/Button2"
+         android:layout_toLeftOf="@+id/Button2"
+         android:text="@string/Mi" />
+
+     <Button
+         android:id="@+id/Button4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/Button3"
+         android:layout_toLeftOf="@+id/Button3"
+         android:text="@string/Do" />
+
+     <Button
+         android:id="@+id/button_move"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/Button4"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="27dp"
+         android:layout_toLeftOf="@+id/Button1"
+         android:text="@string/Navigate" />
+
+     <Button
+         android:id="@+id/Button2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/Button1"
+         android:layout_toLeftOf="@+id/Button1"
+         android:text="@string/Sol" />
+
+</RelativeLayout>
