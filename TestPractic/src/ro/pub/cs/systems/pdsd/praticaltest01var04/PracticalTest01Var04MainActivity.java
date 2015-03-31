@@ -39,7 +39,7 @@ private KeypadButtonClickListener buttonClickListener = new KeypadButtonClickLis
 			String notes = notesEditText.getText().toString();
 			
 			if (view instanceof Button) {
-				//phoneNumberEditText.setText(phoneNumber+((Button)view).getText().toString());
+				
 				Button button = ((Button)view);
 				String text = button.getText().toString();
 				if (text.length() < 5) {
